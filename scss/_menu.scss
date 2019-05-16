@@ -1,5 +1,3 @@
-@import "config";
-
 //Menu button
 .menu-btn {
   position: absolute;
@@ -94,8 +92,8 @@
     }
 
     .portrait {
-      width: 250px;
-      height: 250px;
+      width: 310px;
+      height: 310px;
       background: url(/dist/img/portrait.jpg);
       background-size: 15em;
       background-position: center;
