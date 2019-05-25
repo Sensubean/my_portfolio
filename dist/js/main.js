@@ -32,3 +32,14 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+//Change document title on blur
+var message = "👀Hmmm...";
+var original = document.title;
+
+window.onblur = function() {
+  document.title = message;
+};
+window.onfocus = function() {
+  document.title = original;
+};
