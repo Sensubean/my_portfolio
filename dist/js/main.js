@@ -32,6 +32,13 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+//textfadein
+function scrollAppear() {
+  var bio = document.querySelector(".bio");
+
+  bio.classList.add("bio-appear");
+}
+window.addEventListener("load", scrollAppear);
 
 //Change document title on blur
 var message = "👀Hmmm...";
